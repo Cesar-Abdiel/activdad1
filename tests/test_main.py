@@ -17,6 +17,8 @@ def test_obtener_componentes_reutilizables():
     assert "Autenticación y roles" in componentes
     assert "Gestión de productos" in componentes
     assert "Control de stock" in componentes
+    assert "Registro de ventas" in componentes
     assert "Generador de facturas" in componentes
-    assert len(componentes) >= 5
-    
+    assert "Generador de reportes" in componentes
+    assert "Exportador PDF/Excel" in componentes
+    assert len(componentes) == 7
