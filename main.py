@@ -49,6 +49,6 @@ def iniciar_sistema():
     for componente in obtener_componentes_reutilizables():
         print(f"- {componente}")
 
-    
+
 if __name__ == "__main__":
     iniciar_sistema()
