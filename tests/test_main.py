@@ -19,3 +19,4 @@ def test_obtener_componentes_reutilizables():
     assert "Control de stock" in componentes
     assert "Generador de facturas" in componentes
     assert len(componentes) >= 5
+    
